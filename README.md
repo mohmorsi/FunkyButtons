@@ -1,3 +1,13 @@
+
+<div align="center">
+
+![license](https://img.shields.io/github/license/mohmorsi/Space-Byte?style=flat-square)
+![html logo](https://img.shields.io/badge/HTML-C75333?style=flat-square&logo=html5&logoColor=white)
+![css logo](https://img.shields.io/badge/CSS-3079E9?style=flat-square&logo=css3&logoColor=white)
+![python logo](https://img.shields.io/badge/Python-87A2D0?style=flat-square&logo=Python&logoColor=gold)
+![made with heart by mohmorsi](https://img.shields.io/badge/made%20with%20%E2%9D%A4%EF%B8%8F%20by-mohmorsi-red?style=flat-square)
+</div>
+
 # FunkyButtons
 
 ## Overview
@@ -30,6 +40,14 @@ This code assumes the existence of a container element with the class "container
 • `.btn-submit:focus`, `.btn-submit:hover`: sets an animation for the button when it is being hovered or focused, pulsing its box-shadow using a keyframes rule.
 
 • `@keyframes pulse`: specifies the animation for the "pulse" animation, which changes the box-shadow of the button and its text color.
+
+## Demo
+
+
+
+https://user-images.githubusercontent.com/8793750/224219723-56262657-4f1d-4aa0-af13-eadee529fc5f.mov
+
+
 
 ## Usage
 To use this code, create an HTML file that includes a container element with one or more button elements inside. Apply the appropriate classes to the buttons to achieve the desired style. Then link to this CSS file in the head of your HTML document.
