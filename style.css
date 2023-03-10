@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080808;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  font-family: 'Asap', sans-serif;
+  min-width: 70px;
+  max-width: 200px;
+  margin: 1em;
+  padding: 1em 2em;
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: black;
+  color: white;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+.btn:focus, 
+.btn:hover {
+  cursor: pointer;
+  background-color: #080808;
+}
+
+,btn:active {
+  transform: scale(0.96);
+}
+
+
+/* -------------Cancel Button Start-----------*/
+.btn-cancel {
+  color: indianred;
+  border-color: indianred;
+}
+
+.btn-cancel:focus, 
+.btn-cancel:hover {
+  animation: left-slide 0.7s;
+}
+
+
+@keyframes left-slide {
+  0% {
+      box-shadow: inset 6.5em 0 0 0 indianred;
+      color: black; 
+  }
+}
+
+/* -------------Cancel Button End-----------*/
+
+
+/* -------------Submit Button Start-----------*/
+.btn-submit {
+  color: forestgreen;
+  border-color: forestgreen;
+}
+
+.btn-submit:focus, 
+.btn-submit:hover {
+  animation: pulse 0.7s;
+}
+
+@keyframes pulse {
+  0% {
+      box-shadow: 0 0 0 0.75em forestgreen;
+      color: black; 
+  }
+}
+
+/* -------------Submit Button End-----------*/
