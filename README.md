@@ -4,7 +4,7 @@
 ![license](https://img.shields.io/github/license/mohmorsi/Space-Byte?style=flat-square)
 ![html logo](https://img.shields.io/badge/HTML-C75333?style=flat-square&logo=html5&logoColor=white)
 ![css logo](https://img.shields.io/badge/CSS-3079E9?style=flat-square&logo=css3&logoColor=white)
-![python logo](https://img.shields.io/badge/Python-87A2D0?style=flat-square&logo=Python&logoColor=gold)
+![javascript logo](https://img.shields.io/badge/JS-ECD74E?style=flat-square&logo=javascript&logoColor=white)
 ![made with heart by mohmorsi](https://img.shields.io/badge/made%20with%20%E2%9D%A4%EF%B8%8F%20by-mohmorsi-red?style=flat-square)
 </div>
 
